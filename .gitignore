@@ -20,6 +20,10 @@ coverage
 # node-waf configuration
 .lock-wscript
 
+# Directory for the gulp configuration
+temp/*
+!temp/.gitkeep
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
